@@ -10,7 +10,7 @@ const gen_table = () => {
 
   if (capital > 0) {
       const tableRows = [];
-      const data = []; // Array para almacenar objetos
+      const data = []; 
 
       let totalDeInteres = 0;
 
@@ -33,7 +33,6 @@ const gen_table = () => {
               </tr>
           `);
 
-          // Agrega objetos al array data
           data.push({
               Iteracion: i,
               Cuota: decimal1,
